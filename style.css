@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bellota Text', cursive;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    position: relative;
+}
+
+h1 button {
+    position: absolute;
+    right: 0;
+    transform: translate(120%, -50%);
+}
+
+.btn {
+    background-color: #fff;
+    cursor: pointer;
+    border: 1 px solid #aaa;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.btn-ghost {
+    border: 0;
+    background-color: transparent;
+}
+
+.clear {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
